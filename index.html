@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff"><meta name="description" content="RE:PLAY 可重组儿童家具。转一转、轻轻摇摆，探索原始模型中的六种组合与构件拆解。">
+  <title>RE:PLAY — 收纳与玩耍，自由组合</title>
+  <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./editorial.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#forms">跳到 3D 互动体验</a>
+  <header class="masthead wrap">
+    <a class="wordmark" href="#top" aria-label="RE:PLAY 首页">RE:PLAY</a>
+    <nav aria-label="主导航"><a href="#story">设计理念</a><a href="#live3d">多种形态</a><a href="#build">搭建探索</a><a class="nav-cta" href="#forms">进入 3D ↗</a></nav>
+  </header>
+  <main id="top">
+    <section class="cover" aria-labelledby="cover-title">
+      <div class="cover-copy"><span class="eyebrow">RE:PLAY / RECONFIGURABLE FURNITURE</span><h1 id="cover-title">把日常，<br>变成<span>新玩法。</span></h1><p class="cover-subtitle">一套构件，陪伴孩子的不同日常。</p><p class="cover-description">阅读、收纳、玩耍，再一起搭建。<br>让家具成为探索与创造的一部分。</p><div class="cover-actions"><a class="solid-link" href="#forms">开始 3D 探索 <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#story">认识 RE:PLAY ↓</a></div><div class="cover-tags"><span>天然木质</span><span>多形态重组</span><span>共同搭建</span></div></div>
+      <figure class="cover-photo"><img src="./assets/editorial/cover.jpg" width="2400" height="1800" alt="温暖的儿童阅读场景，展示 RE:PLAY 木质学习桌和珊瑚红座椅" fetchpriority="high"><figcaption><span>在日常里，发现新的可能</span><span>LEARN · PLAY · STORE</span></figcaption></figure>
+    </section>
+    <section class="story-section wrap" id="story" aria-labelledby="story-title"><div class="story-lead"><span class="eyebrow">ONE SYSTEM, MANY WAYS TO GROW</span><h2 id="story-title">家具可以变，<br>好奇心一直在。</h2></div><div class="story-body"><p>RE:PLAY 是一套面向儿童学习、玩耍与收纳场景的可重组家具系统。标准化木质构件通过榫接、可拆插销与木质螺纹连接，组成不同的家具形态。</p><p>孩子可以自己参与搭建，也可以和家长一起完成。把组装、拆解与重新组合，变成一次关于动手、协作与创造的体验。</p><a class="quiet-link" href="#build">看看构件如何连接 ↗</a></div></section>
+    <section class="daily-section wrap" aria-label="使用场景"><article><span class="daily-number">01 / STORE</span><h3>把喜欢的，都收好。</h3><p>开放式收纳，让物品清晰可见。转动把手，带着小小收藏去往下一个角落。</p><button data-open-form="cart" class="quiet-link">体验收纳推车 ↗</button></article><article><span class="daily-number">02 / LEARN</span><h3>留一处，给好奇心。</h3><p>倾斜的阅读面与纯净的黑板面，让阅读与创作拥有自己的位置。</p><button data-open-form="learning" class="quiet-link">观察学习桌 ↗</button></article><article><span class="daily-number">03 / PLAY</span><h3>一起坐，一起玩。</h3><p>桌面游戏、双人跷跷板和摇摇椅，同一组构件，展开不同的玩法。</p><button data-open-form="seesaw" class="quiet-link">轻轻摇一摇 ↗</button></article></section>
+    <section class="hero wrap" id="live3d" aria-labelledby="hero-title">
+      <div class="hero-intro"><span class="eyebrow">MEET THE FORMS / LIVE 3D</span><h2 id="hero-title">收纳与玩耍，自由组合</h2><p>这一次，亲手转一转。拖动模型，发现每一个细节。</p></div>
+      <div class="hero-grid">
+        <figure class="product-figure">
+          <div class="model-view hero-view" id="hero-cart" role="img" aria-label="收纳推车实时三维模型，可拖动旋转和滚轮缩放" tabindex="0">
+            <div class="loading"><span class="loading-ring"></span><span>正在打开收纳推车…</span></div>
+            <button class="view-reset icon-button" data-reset="hero-cart" aria-label="复位推车视角" title="复位视角">↺</button>
+            <span class="gesture-hint"><span class="gesture-icon">↔</span> 拖动转一转 · 点击绿色把手</span>
+          </div>
+          <figcaption><h2><span>01</span> 收纳推车</h2><p>把小物收好，推着快乐出发</p><button class="text-link" data-open-form="cart">探索推车 <span aria-hidden="true">↗</span></button></figcaption>
+        </figure>
+        <figure class="product-figure">
+          <div class="model-view hero-view" id="hero-seesaw" role="img" aria-label="双座跷跷板实时三维模型，可拖动旋转，点击轻轻摇摆" tabindex="0">
+            <div class="loading"><span class="loading-ring"></span><span>正在打开双座跷跷板…</span></div>
+            <button class="view-reset icon-button" data-reset="hero-seesaw" aria-label="复位跷跷板视角" title="复位视角">↺</button>
+            <span class="gesture-hint"><span class="gesture-icon">↔</span> 拖动转一转 · 点击轻轻摇摆</span>
+          </div>
+          <figcaption><h2><span>02</span> 双座跷跷板</h2><p>一起坐，一起玩</p><button class="text-link" data-open-form="seesaw">探索跷跷板 <span aria-hidden="true">↗</span></button></figcaption>
+        </figure>
+      </div>
+      <a class="scroll-cue" href="#forms"><span>还有更多新玩法</span><span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="build-section wrap" id="build" aria-labelledby="build-title"><div class="section-heading"><div><span class="eyebrow">BUILD · CHANGE · BUILD AGAIN</span><h2 id="build-title">搭起来，变一变，再次创造。</h2><p>从认识一个连接，到探索整套构件。</p></div></div><div class="build-steps"><button data-lab-form="chair" data-lab-mode="exploded"><span class="step-num">01</span><strong>认识连接</strong><span>拆开椅子，看看插销与木质框架</span><i aria-hidden="true">↗</i></button><button data-lab-form="learning" data-lab-mode="exploded"><span class="step-num">02</span><strong>共同搭建</strong><span>通过拆解进度，理解构件间的关系</span><i aria-hidden="true">↗</i></button><button data-lab-form="learning" data-lab-mode="flatpack"><span class="step-num">03</span><strong>扁平收纳</strong><span>逐件观察原模型中的平铺排列</span><i aria-hidden="true">↗</i></button><button data-lab-form="rocker" data-lab-mode="whole"><span class="step-num">04</span><strong>重新组合</strong><span>换成摇摇椅，体验另一种玩法</span><i aria-hidden="true">↗</i></button></div></section>
+    <section class="form-section wrap" id="forms" aria-labelledby="forms-title">
+      <div class="section-heading"><div><span class="eyebrow">SAME PARTS, NEW POSSIBILITIES</span><h2 id="forms-title">一种家具，不止一种可能</h2><p>选一个形态，换个角度，发现每个构件的新角色。</p></div><span class="section-index">01 — 06</span></div>
+      <div class="form-tabs" role="group" aria-label="选择家具形态">
+        <button data-form="cart" aria-pressed="true"><span>01</span> 收纳推车</button><button data-form="learning" aria-pressed="false"><span>02</span> 学习桌</button><button data-form="game" aria-pressed="false"><span>03</span> 游戏桌</button><button data-form="seesaw" aria-pressed="false"><span>04</span> 双座跷跷板</button><button data-form="rocker" aria-pressed="false"><span>05</span> 摇摇椅</button><button data-form="chair" aria-pressed="false"><span>06</span> 椅子</button>
+      </div>
+      <div class="explore-shell" id="explore">
+        <div class="viewer-toolbar">
+          <div class="mode-tabs" role="group" aria-label="查看方式"><button data-mode="whole" aria-pressed="true">整体展示</button><button data-mode="exploded" aria-pressed="false">爆炸拆解</button><button data-mode="flatpack" aria-pressed="false">构件平铺</button></div>
+          <div class="viewer-tools"><button id="reset-view" class="tool" title="恢复初始视角"><span aria-hidden="true">↺</span> 复位视角</button><button id="pause-all" class="tool" aria-pressed="false"><span class="pause-glyph" aria-hidden="true">Ⅱ</span> <span>暂停动画</span></button></div>
+        </div>
+        <div class="explore-grid">
+          <div class="viewport-column">
+            <div class="model-view main-view" id="main-view" role="img" aria-label="家具三维探索视窗" tabindex="0"><div class="loading"><span class="loading-ring"></span><span>正在打开原始模型…</span></div><div class="hotspots" aria-label="结构热点"></div><div class="viewport-footer"><span id="view-caption">收纳推车 · 原始组合</span><span>拖动旋转 / 滚轮缩放</span></div></div>
+            <div class="decompose-controls" id="decompose-controls" hidden><div class="slider-label"><label for="explode-progress">拆解进度</label><output id="explode-output" for="explode-progress">100%</output></div><input id="explode-progress" aria-label="拆解进度" type="range" min="0" max="100" value="100"><div class="slider-actions"><button class="outline-button" id="play-explosion">▷ 播放拆解</button><button class="text-link" id="restore-assembly">一键复原 ↶</button></div><p class="microcopy" id="explosion-source-note">终点为模型中的原始爆炸布局；无法确认对应的构件仅淡入淡出。</p></div>
+          </div>
+          <aside class="inspector" aria-live="polite">
+            <span class="inspector-kicker" id="inspector-kicker">01 / STORE</span><h3 id="inspector-title">把快乐，推着走。</h3><p class="inspector-copy" id="inspector-description">小物有了自己的位置，家具也有了新的玩法。转动模型，看看推车的把手、护条与木轮。</p>
+            <div class="part-detail" id="part-detail" hidden><span class="part-badge">正在观察的构件</span><h4 id="part-name"></h4><p id="part-material"></p><p id="part-description"></p><button class="text-link" id="focus-part">聚焦这个构件 ↗</button><button class="close-part" id="close-part" aria-label="关闭构件说明">×</button></div>
+            <button class="primary-button" id="form-action"><span>提起把手</span><span aria-hidden="true">↗</span></button>
+            <div class="interaction-note" id="interaction-note">点击绿色连杆或上方按钮，观察把手沿连接轴转动。</div>
+            <label class="toggle-row"><span>显示结构热点</span><input id="show-hotspots" type="checkbox" checked><span class="switch" aria-hidden="true"></span></label>
+            <label class="toggle-row"><span>减少动态效果</span><input id="reduce-motion" type="checkbox"><span class="switch" aria-hidden="true"></span></label>
+            <div class="inspector-bottom"><span class="live-dot"></span> 实时 3D · 原始模型</div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="cmf-section wrap" aria-labelledby="cmf-title"><div><span class="eyebrow">COLOR · MATERIAL · FINISH</span><h2 id="cmf-title">看得到木纹，摸得到想象。</h2><p>浅色木材搭配明快的红与绿，让每一种组合都保留熟悉的温度。</p></div><ul class="swatches" aria-label="产品材质配色"><li><span class="swatch wood"></span><span>天然浅木纹</span></li><li><span class="swatch coral"></span><span>珊瑚红</span></li><li><span class="swatch green"></span><span>草绿色</span></li><li><span class="swatch ivory"></span><span>米白软垫</span></li></ul></section>
+    <section class="boards-section wrap" aria-labelledby="boards-title"><div class="section-heading"><div><span class="eyebrow">THE DESIGN, IN DETAIL</span><h2 id="boards-title">从想法，到每一个细节。</h2><p>完整展板记录了 RE:PLAY 的设计理念、使用场景与构件关系。</p></div></div><div class="board-grid"><a href="./assets/editorial/board-design.jpg" target="_blank" rel="noopener"><img src="./assets/editorial/board-design.jpg" width="2480" height="3508" loading="lazy" alt="RE:PLAY 设计说明与搭建过程展板"><span>01 / 设计与搭建 <b>放大查看 ↗</b></span></a><a href="./assets/editorial/board-use.jpg" target="_blank" rel="noopener"><img src="./assets/editorial/board-use.jpg" width="2480" height="3508" loading="lazy" alt="RE:PLAY 收纳、学习与玩耍场景展板"><span>02 / 日常与玩法 <b>放大查看 ↗</b></span></a></div></section>
+    <section class="closing wrap"><span class="eyebrow">SAME PARTS. A NEW ADVENTURE.</span><h2>下一种可能，<br>一起发现。</h2><a class="solid-link" href="#forms">回到 3D 体验 ↗</a></section>
+  </main>
+  <footer class="wrap footer"><a class="wordmark small" href="#top">RE:PLAY</a><p>收纳 / 陪伴 / 玩耍</p><a href="#top" class="back-top">回到顶部 ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">请启用 JavaScript，以旋转模型和探索拆解。</p></noscript>
+</body>
+</html>
